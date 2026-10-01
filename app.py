@@ -5,7 +5,7 @@ import feedparser
 import requests
 import streamlit as st
 
-st.set_page_config(page_title="Claim Checker", page_icon="🔎")
+st.set_page_config(page_title="Claim Checker by @Yash")
 st.title("Fact checker")
 st.write("Paste a claim or headline, and we'll see what fact-checkers and news outlets say.")
 
