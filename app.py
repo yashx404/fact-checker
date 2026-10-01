@@ -5,9 +5,9 @@ import feedparser
 import requests
 import streamlit as st
 
-st.set_page_config(page_title="Claim Checker by @Yash")
+st.set_page_config(page_title="Fact Checker by @Yash")
 st.title("Fact checker")
-st.write("Paste a claim or headline, and we'll see what fact-checkers and news outlets say.")
+st.write("Paste a headline, and we'll see what fact-checkers and news outlets say.")
 
 API_KEY = st.secrets["FACTCHECK_API_KEY"]
 API_URL = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
