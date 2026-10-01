@@ -1,3 +1,5 @@
+Test it out: https://fact-checker-404.streamlit.app/
+
 Fact checker
 
 Paste a claim or headline and see what professional fact-checkers and news outlets say about it.
